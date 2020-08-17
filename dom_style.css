@@ -1,0 +1,58 @@
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+   position: relative;
+}
+
+.left {
+    flex-grow: 1;
+    align-items: ;
+}
+
+.right{
+    flex-grow: 0;
+}
+
+input {
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+p {
+    margin-left: 30px;
+}
+
+#male, #female {
+    margin-left: 90px;
+}
+
+#message {
+    height: 60px;
+    width: 250px;
+    margin-left: 30px;
+}
+
+button {
+    margin-left: 229px;
+    background-color: darkcyan;
+    color: white;
+}
+
+#error {
+    background-color: red;
+    visibility: hidden;
+    width: 50%;
+    margin-left: 60px;
+}
+img{
+    height: 350px;
+    width: 300px;
+}
